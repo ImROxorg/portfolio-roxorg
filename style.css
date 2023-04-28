@@ -1,0 +1,265 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333333;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+  background-color: #232323;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+header nav ul li a:hover {
+  color: #45aaf2;
+}
+
+.hero {
+  background-color: #1d1f2f;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.hero p { 
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.hero .btn {
+  padding: 15px 30px;
+  background-color: #45aaf2;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s all cubic-bezier(0,.01,.66,-0.02);
+}
+
+.hero .btn:hover {
+  background-color: #0077b6;
+}
+
+/* About Section Styles */
+.about {
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+}
+
+.about img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 60px;
+}
+
+.about h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about button {
+  padding: 15px 30px;
+  background-color: #45aaf2;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.about button:hover {
+  background-color: #0077b6;
+}
+/* Navigation bar styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #1d1f2f;
+  z-index: 1;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10 15px;
+  font-weight: bold;
+}
+
+nav .logo {
+  font-size: 30px;
+  margin: 0 15px;
+  font-weight: bold;
+  color: white;
+}
+
+nav .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+nav .nav-links a {
+  margin: 0 5px;
+  transition: all 0.3s ease;
+}
+
+nav .nav-links a:hover {
+  color: #2aa9e0;
+}
+
+nav .nav-links .active {
+  color: #2aa9e0;
+  border-bottom: 2px solid #2aa9e0;
+  padding-bottom: 3px;
+}
+
+
+/* Hero banner styles */
+.hero-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-image: url('https://images.unsplash.com/photo-1524413840805-2a41ee5bd5be');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+}
+
+.hero-banner h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.hero-banner p {
+  font-size: 1.5rem;
+}
+
+/* About section styles */
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background-color: #1d1f2f;
+  color: white;
+}
+
+.about-section h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 1.5rem;
+}
+
+.about-section img {
+  max-width: 50%;
+  margin-left: 50px;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  background-color:#1f2937;
+  color: white;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.body{
+  background-color: #1d1f2f;
+}
+
+.apdm-content{
+  color: #ffffff;
+}
+
+.reseaux-sociaux{
+  color: #ffffff;
+}
+
+.prps-m{
+  width: 800px;
+}
+
+.prps-m-img{
+  position: relative;
+  left: 1000px;
+  height: 200px;
+  
+}
