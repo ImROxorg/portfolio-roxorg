@@ -265,5 +265,21 @@ nav .nav-links .active {
   position: absolute;
   left: 1000px;
   height: 200px;
-  top: 1014px;
+  top: 780px;
+}
+
+.MRS-TITLE-CENTER{
+  font-size: 30px;
+  margin: 0 500px;
+  font-weight: bold;
+  color: white;
+  top: 100px;
+}
+
+.APDM-TITLE-CENTER{
+  font-size: 30px;
+  margin: 0 500px;
+  font-weight: bold;
+  color: white;
+  top: 100px;
 }
