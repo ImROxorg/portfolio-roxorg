@@ -163,21 +163,25 @@ nav .nav-links {
   justify-content: space-between;
   align-items: center;
   width: 30%;
+  margin-right: 40px;
 }
 
 nav .nav-links a {
   margin: 0 5px;
   transition: all 0.3s ease;
+  margin-right: 40px;
 }
 
 nav .nav-links a:hover {
   color: #2aa9e0;
+  margin-right: 40px;
 }
 
 nav .nav-links .active {
   color: #2aa9e0;
   border-bottom: 2px solid #2aa9e0;
   padding-bottom: 3px;
+  margin-right: 20px;
 }
 
 
@@ -261,5 +265,5 @@ nav .nav-links .active {
   position: absolute;
   left: 1000px;
   height: 200px;
-  top: 1080px;
+  top: 1014px;
 }
